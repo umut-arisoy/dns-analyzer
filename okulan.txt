@@ -1,0 +1,11 @@
+# Basit kullanım
+./dns_analyzer.sh
+
+# Özel ayarlarla
+./dns_analyzer.sh --domains bddk_banks_domains.txt --output reports --jobs 20
+
+# Hızlı ve sessiz
+./dns_analyzer.sh -j 15 -t 5 -q
+
+# Yardım
+./dns_analyzer.sh --help
