@@ -1,0 +1,8 @@
+# Ubuntu/Debian için
+sudo apt-get install dnsutils bc
+
+# CentOS/RHEL için
+sudo yum install bind-utils bc
+
+# (Opsiyonel) Daha hızlı işlem için GNU parallel
+sudo apt-get install parallel
