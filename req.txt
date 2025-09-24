@@ -6,3 +6,5 @@ sudo yum install bind-utils bc
 
 # (Opsiyonel) Daha hızlı işlem için GNU parallel
 sudo apt-get install parallel
+
+chmod +x dns_analyzer.sh
